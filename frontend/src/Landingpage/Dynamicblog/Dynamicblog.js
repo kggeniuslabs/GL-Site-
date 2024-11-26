@@ -65,7 +65,7 @@ function Dynamicblog() {
         console.log(res.data);
         if (res.data.message === "Blog added successfully!") {
           toast.success("Blog added successfully!"); // Show success message
-          navigate(`/BlogEditor/${id}`);
+          navigate(`/blogeditor/${id}`);
           // Clear all fields
           setCategory("");
           setTitle("");

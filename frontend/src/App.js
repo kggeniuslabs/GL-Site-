@@ -57,7 +57,7 @@ import ITMenubar from "./IT/ITMenubar/ITMenubar";
 import Dynamicblog from "./Landingpage/Dynamicblog/Dynamicblog";
 import Errorpage from "./Landingpage/Errorpage/Errorpage";
 import Loginpage from "./Landingpage/Loginpage/Loginpage";
-import BlogDisplay from "./Landingpage/BlogDisplay/BlogDisplay";
+// import BlogDisplay from "./Landingpage/BlogDisplay/BlogDisplay";
 import BlogUpdate from "./Landingpage/BlogDisplay/BlogUpdate";
 import EditorBlog from "./Landingpage/Editorblog/Editorblog";
 import Blogupdation from "./Landingpage/Blogupdation/Blogupdation";
@@ -99,7 +99,7 @@ function App() {
             ]}
           />
           <Route
-            path="/HR_Consultancy"
+            path="/hr-consultancy"
             element={[
               <Hrmenubar />,
               <Bannerhr />,
@@ -119,7 +119,7 @@ function App() {
             element={[<Menubar />, <Blogviewed />, <Footercard />, <Footerblog/>]}
           />
           <Route
-            path="/imp"
+            path="/implementation"
             element={[
               <Sapimplementation />,
               <Hanacloud />,
@@ -134,15 +134,15 @@ function App() {
             element={[<Menubar />, <Contactpage />, <Footercard />, <Contactfooter/>]}
           />
           <Route
-            path="/SAP_Services_Consultancy"
+            path="/sap-services-consultancy"
             element={[<Sapmenubar />, <Sapbanner />, <Autopopup />]}
           />
           <Route
-            path="/IT_Services"
+            path="/it-services"
             element={[<ITMenubar />, <BannerIT />, <Autopopup />]}
           />
           <Route
-            path="/Digital_Marketing_Consultancy"
+            path="/digital-marketing-consultancy"
             element={[
               <Menubardm />,
               <DMBanner />,
@@ -155,10 +155,10 @@ function App() {
               <Autopopup />,
             ]}
           />
-          <Route path="/Digital_Marketing_Blog/:id" element={[<Menubar />,<Dmblogview />,<Footercard />,<Footerblog/>]} />
-          <Route path="/Sap_blog/:id" element={[<Menubar />,<Sapblogview />,<Footercard />,<Footerblog/>]} />
+          <Route path="/digital-marketing-blog/:id" element={[<Menubar />,<Dmblogview />,<Footercard />,<Footerblog/>]} />
+          <Route path="/sap-blog/:id" element={[<Menubar />,<Sapblogview />,<Footercard />,<Footerblog/>]} />
           <Route
-            path="/IT_Blog/:id"
+            path="/it-blog/:id"
             element={[<Menubar />, <Blogit />, <Footercard />, <Footerblog/>]}
           />
           <Route
@@ -184,14 +184,13 @@ function App() {
               <Itfooter />,
             ]}
           />
-          <Route path="/Blog_login" element={<Loginpage />} />
-          <Route path="/Dynamic_blog/:id" element={<Dynamicblog />} />
-          {/* <Route path="/bl" element={<BlogDisplay />} /> */}
-          <Route path="*" element={<Errorpage />} />
+          <Route path="/blog-login" element={<Loginpage />} />
+          <Route path="/dynamic-blog/:id" element={<Dynamicblog />} />
+         
           <Route path="/blog-update" element={<BlogUpdate />} />
-          <Route path="/BlogEditor/:id" element={<EditorBlog/>}/>
-          <Route path="/UpdateBlog/:id/:userid" element={<Blogupdation/>}/>
-          
+          <Route path="/blogeditor/:id" element={<EditorBlog/>}/>
+          <Route path="/updateblog/:id/:userid" element={<Blogupdation/>}/>
+          <Route path="*" element={<Errorpage />} />
         </Routes>
       </BrowserRouter>
     </div>

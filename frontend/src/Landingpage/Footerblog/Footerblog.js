@@ -45,16 +45,16 @@ function Footerblog() {
           <h4>
             <b>Services</b>
           </h4>
-          <Link to="/SAP_Services_Consultancy" className="nav-link">
+          <Link to="/sap-services-consultancy" className="nav-link">
             <p>SAP Services</p>
           </Link>
-          <Link to="/IT_Services" className="nav-link">
+          <Link to="/it-services" className="nav-link">
             <p>IT Services</p>
           </Link>
-          <Link to="/Digital_Marketing_Consultancy" className="nav-link">
+          <Link to="/digital-marketing-consultancy" className="nav-link">
             <p>Digital Marketing Services</p>
           </Link>
-          <Link to="/HR_Consultancy" className="nav-link">
+          <Link to="/hr-consultancy" className="nav-link">
             <p>HR Consultancy</p>
           </Link>
         </div>

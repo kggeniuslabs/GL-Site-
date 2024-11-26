@@ -8,7 +8,7 @@ function Sapblog() {
   const navigate = useNavigate();
 
   const handleReadMoreClick = (id) => {
-    navigate(`/Sap_blog/${id}`); // Navigate to the blog details page with the blog id
+    navigate(`/sap-blog/${id}`); // Navigate to the blog details page with the blog id
   };
 
   useEffect(() => {

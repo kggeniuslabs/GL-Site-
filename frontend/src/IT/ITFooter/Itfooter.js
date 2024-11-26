@@ -23,11 +23,11 @@ function Itfooter() {
         </div>
         <div className='col-sm-4 col-lg-2'>
           <h4>Services</h4>
-          <Link to="/SAP_Services_Consultancy" className="nav-link"><p>SAP Services</p></Link>
+          <Link to="/sap-services-consultancy" className="nav-link"><p>SAP Services</p></Link>
           <Sclink to="ITbanner" className="nav-link"><p>IT Services</p></Sclink>
-          <Link to="/Digital_Marketing_Consultancy" className="nav-link"><p> Digital Marketing Services</p></Link>
+          <Link to="/digital-marketing-consultancy" className="nav-link"><p> Digital Marketing Services</p></Link>
           
-          <Link to="/HR_Consultancy" className="nav-link"><p>HR Consultancy</p></Link>
+          <Link to="/hr-consultancy" className="nav-link"><p>HR Consultancy</p></Link>
         </div>
         <div className='col-sm-4 col-lg-2'>
   <h4>Our Branches</h4>

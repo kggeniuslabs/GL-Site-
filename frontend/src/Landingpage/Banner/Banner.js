@@ -31,7 +31,7 @@ function Banner() {
         <Carousel.Caption className="carousel-caption-centered">
           <h1 className='itheading'>Rise and Grow with<br/><span className='bannerkg1'>SAP</span></h1>
           <p className='itpara'>Achieve efficiency with streamlined operations through tailored SAP implementations and expert support.</p>
-          <Link to="/SAP_Services_Consultancy" className='pt-5 mt-5'>
+          <Link to="/sap-services-consultancy" className='pt-5 mt-5'>
             <button className='btnshading1'>
               Consult with Our Experts
               <FontAwesomeIcon icon={faAngleRight} style={{ color: '#fff' }} className='mx-1' />
@@ -45,7 +45,7 @@ function Banner() {
         <Carousel.Caption className="carousel-caption-centered">
           <h1 className='sapheading'>Empower Your Business with Optimized <br/><span className='bannerkg1'>IT Solutions</span></h1>
           <p className='itpara'>We provide comprehensive IT Solutions to ensure reliability and drive success.</p>
-          <Link to="/IT_Services">
+          <Link to="/it-services">
           <button className='btnshading1'>Explore More <FontAwesomeIcon icon={faAngleRight} style={{color:"fff"}} className='mx-1'/></button>
           </Link>
         </Carousel.Caption>
@@ -55,9 +55,9 @@ function Banner() {
         <img className="d-block w-100" src={bannerimg4} title=' Digital Marketing' alt="Driving your brand's digital presence with innovative strategies, creative campaigns, and data-driven solutions that connect and engage with your audienc" width="1200" height="400" />
         <Carousel.Caption className="carousel-caption-centered">
           <h3 className='dmheading pb-2'>Revamp Your Online Presence with Our Strategic
-            <span className='/Digital_Marketing_Consultancy'> Digital Marketing Magic</span></h3>
+            <span className='bannerkg1' > Digital Marketing Magic</span></h3>
           <p className='itpara'>We offer innovative digital marketing services to enhance your brand and drive results.</p>
-          <Link to="/Digital_Marketing_Consultancy" className='pt-5 mt-5'>
+          <Link to="/digital-marketing-consultancy" className='pt-5 mt-5'>
           <button className='btnshading1 mb-5'>Explore More <FontAwesomeIcon icon={faAngleRight} style={{color:"fff"}} className='mx-1'/></button>
           </Link>
         </Carousel.Caption>

@@ -46,7 +46,7 @@ function Sapblogview() {
   }, [categoryId, id]);
 
   const handleClick = () => {
-    navigate("/Sap_blog1");
+    navigate("/sap-blog1");
   };
   return (
     <div className="container-fluid blogpartcontent p-0 m-0">
@@ -83,7 +83,7 @@ function Sapblogview() {
             </h2>
             {relatedBlogs.map((relatedBlog) => (
               <Link
-                to={`/Sap_blog/${relatedBlog.unique_identifier}`}
+                to={`/sap-blog/${relatedBlog.unique_identifier}`}
                 key={relatedBlog.id}
                 style={{ textDecoration: "none" }}
               >

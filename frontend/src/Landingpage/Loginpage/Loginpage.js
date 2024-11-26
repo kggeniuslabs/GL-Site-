@@ -51,7 +51,7 @@ function Loginpage() {
             const userid = response.data.user.id;
             console.log(userid);
 
-            navigate(`/BlogEditor/${btoa(userid)}`, {
+            navigate(`/blogeditor/${btoa(userid)}`, {
               // state: {
               //   isAuthenticated: true,
               //   title: "Blog Title",

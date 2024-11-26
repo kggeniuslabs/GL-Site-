@@ -51,11 +51,11 @@
 //   const getPath = (category_id, blogId) => {
 //     switch (category_id) {
 //       case 1:
-//         return `/Sap_blog/${btoa(blogId)}`;
+//         return `/sap-blog/${btoa(blogId)}`;
 //       case 2:
-//         return `/IT_Blog/${btoa(blogId)}`;
+//         return `/it-blog/${btoa(blogId)}`;
 //       case 3:
-//         return `/Digital_Marketing_Blog/${btoa(blogId)}`;
+//         return `/digital-marketing-blog/${btoa(blogId)}`;
 //       default:
 //         return "/";
 //     }
@@ -176,21 +176,21 @@ function Blogviewed() {
   };
 
   const handleAddBlogClick = () => {
-    navigate(`/Dynamic_blog/${id}`);
+    navigate(`/dynamic-blog/${id}`);
   };
 
   const handleupdate = (a) => {
-    navigate(`/UpdateBlog/${btoa(a)}/${id}`);
+    navigate(`/updateblog/${btoa(a)}/${id}`);
   };
 
   const getPath = (category_id, blogId) => {    
     switch (category_id) {
       case 1:
-        return `/Sap_blog/${blogId}`;
+        return `/sap-blog/${blogId}`;
       case 2:
-        return `/IT_Blog/${blogId}`;
+        return `/it-blog/${blogId}`;
       case 3:
-        return `/Digital_Marketing_Blog/${blogId}`;
+        return `/digital-marketing-blog/${blogId}`;
       default:
         return "/";
     }

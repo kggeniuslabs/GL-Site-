@@ -8,7 +8,7 @@ function Dmblog() {
   const navigate = useNavigate();
 
   const handleReadMoreClick = (id) => {
-    navigate(`/Digital_Marketing_Blog/${id}`); // Navigate to the blog details page with the blog id
+    navigate(`/digital-marketing-blog/${id}`); // Navigate to the blog details page with the blog id
   };
 
   useEffect(() => {

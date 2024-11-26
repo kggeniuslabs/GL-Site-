@@ -53,11 +53,11 @@ function Blogviewed() {
   const getPath = (category_id, unique_identifier) => {
     switch (category_id) {
       case 1:
-        return `/Sap_blog/${unique_identifier}`;
+        return `/sap-blog/${unique_identifier}`;
       case 2:
-        return `/IT_Blog/${unique_identifier}`;
+        return `/it-blog/${unique_identifier}`;
       case 3:
-        return `/Digital_Marketing_Blog/${unique_identifier}`;
+        return `/digital-marketing-blog/${unique_identifier}`;
       default:
         return "/";
     }

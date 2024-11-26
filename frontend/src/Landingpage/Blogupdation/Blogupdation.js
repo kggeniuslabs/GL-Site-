@@ -70,7 +70,7 @@ function Blogupdation() {
         console.log(res.data);
         if (res.data.message === "Blog updated successfully") {
           alert("Blog updated successfully!");
-          nav(`/BlogEditor/${userid}`);
+          nav(`/blogeditor/${userid}`);
         } else if (res.data.error === "Blog not found or no changes made") {
           alert("Blog not found or no changes made");
         }

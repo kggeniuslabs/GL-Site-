@@ -25,10 +25,10 @@ function ITMenubar() {
             <Nav.Link as={RouterLink} to="/" className='navtext px-3' onClick={handleSelect}>Home</Nav.Link>
             <Nav.Link as={RouterLink} to="/aboutus" className='navtext px-3' onClick={handleSelect}>About Us</Nav.Link>
             <NavDropdown title={<span className='px-3 navtext1'>Our Services</span>} id="basic-nav-dropdown">
-              <NavDropdown.Item as={RouterLink} to="/SAP_Services_Consultancy" className='navtext1' onClick={handleSelect}>SAP Services</NavDropdown.Item>
-              <NavDropdown.Item as={RouterLink} to="/IT_Services" className='navtext1 px-3' onClick={handleSelect}>IT Services</NavDropdown.Item>
-              <NavDropdown.Item as={RouterLink} to="/Digital_Marketing_Consultancy" className='navtext1' onClick={handleSelect}>Digital Marketing Services</NavDropdown.Item>
-              <NavDropdown.Item as={RouterLink} to="/HR_Consultancy" className='navtext1' onClick={handleSelect}>HR Consultancy</NavDropdown.Item>
+              <NavDropdown.Item as={RouterLink} to="/sap-services-consultancy" className='navtext1' onClick={handleSelect}>SAP Services</NavDropdown.Item>
+              <NavDropdown.Item as={RouterLink} to="/it-services" className='navtext1 px-3' onClick={handleSelect}>IT Services</NavDropdown.Item>
+              <NavDropdown.Item as={RouterLink} to="/digital-marketing-consultancy" className='navtext1' onClick={handleSelect}>Digital Marketing Services</NavDropdown.Item>
+              <NavDropdown.Item as={RouterLink} to="/hr-consultancy" className='navtext1' onClick={handleSelect}>HR Consultancy</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={RouterLink} to="/blogs" className='navtext px-3' onClick={handleSelect}>Blog</Nav.Link>
           </Nav>

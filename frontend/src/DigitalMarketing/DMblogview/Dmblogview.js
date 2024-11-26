@@ -142,7 +142,7 @@ function Dmblogview() {
           <div>
             {relatedBlogs.map((relatedBlog) => (
               <Link
-                to={`/Digital_Marketing_Blog/${relatedBlog.unique_identifier}`}
+                to={`/digital-marketing-blog/${relatedBlog.unique_identifier}`}
                 key={relatedBlog.id}
                 style={{ textDecoration: "none" }}
               >

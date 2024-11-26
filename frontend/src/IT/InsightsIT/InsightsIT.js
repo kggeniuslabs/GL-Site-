@@ -9,7 +9,7 @@ function InsightsIT() {
   const navigate = useNavigate();
 
   const handleReadMoreClick = (id) => {
-    navigate(`/IT_Blog/${id}`); // Navigate to the blog details page with the blog id
+    navigate(`/it-blog/${id}`); // Navigate to the blog details page with the blog id
   };
 
   useEffect(() => {

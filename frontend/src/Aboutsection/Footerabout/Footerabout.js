@@ -24,10 +24,10 @@ const year = date.getFullYear();
         </div>
         <div className='col-sm-4 col-lg-2'>
           <h4><b>Services</b></h4>
-          <Link to="/SAP_Services_Consultancy" className="nav-link"><p>SAP Services</p></Link>
+          <Link to="/sap-services-consultancy" className="nav-link"><p>SAP Services</p></Link>
           <p>IT Services</p>
-         <Link to="/Digital_Marketing_Consultancy" className="nav-link"><p>Digital Marketing Services</p></Link> 
-          <Link to="/HR_Consultancy" className="nav-link"><p>HR Consultancy</p></Link>
+         <Link to="/digital-marketing-consultancy" className="nav-link"><p>Digital Marketing Services</p></Link> 
+          <Link to="/hr-consultancy" className="nav-link"><p>HR Consultancy</p></Link>
         </div>
         <div className='col-sm-4 col-lg-2'>
   <h4><b>Our Branches</b></h4>

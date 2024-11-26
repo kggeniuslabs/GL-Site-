@@ -11,11 +11,11 @@ function Insights() {
   const handleReadMoreClick = (categoryId, blogId) => {
     // You can use the blogId in your route if needed
     if (categoryId === 1) {
-      navigate(`/Sap_blog/${blogId}`); // Pass blogId in URL
+      navigate(`/sap-blog/${blogId}`); // Pass blogId in URL
     } else if (categoryId === 2) {
-      navigate(`/IT_Blog/${blogId}`); // Pass blogId in URL
+      navigate(`/it-blog/${blogId}`); // Pass blogId in URL
     } else if (categoryId === 3) {
-      navigate(`/Digital_Marketing_Blog/${blogId}`); // Pass blogId in URL
+      navigate(`/digital-marketing-blog/${blogId}`); // Pass blogId in URL
     } else {
       console.warn("Unknown category ID:", categoryId);
     }

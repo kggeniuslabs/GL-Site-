@@ -71,7 +71,7 @@ function Blogit() {
             {/* Render related blogs */}
             {relatedBlogs.map((relatedBlog) => (
               <Link
-                to={`/IT_Blog/${relatedBlog.unique_identifier}`}
+                to={`/it-blog/${relatedBlog.unique_identifier}`}
                 key={relatedBlog.id}
                 style={{ textDecoration: "none" }}
               >
