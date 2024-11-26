@@ -7,15 +7,15 @@
 .crdpart {
   box-shadow: 1px 2px 15px rgb(221, 220, 220);
 }
-.userimg2 {
-  height: 100px;
-  width: 100px;
-}
+
 .clienttext {
   color: #291571;
   font-size: 58px;
 }
-
+.userimg2{
+  height: 70px !important;
+  width:140px !important;
+}
 .quotesimg {
   height: auto;
   width: 80px;

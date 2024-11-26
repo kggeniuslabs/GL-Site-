@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.333439bb.css",
-    "main.js": "/static/js/main.a4363fb2.js",
+    "main.css": "/static/css/main.6fe03677.css",
+    "main.js": "/static/js/main.c0cb645e.js",
     "static/js/453.ba9a94bd.chunk.js": "/static/js/453.ba9a94bd.chunk.js",
     "static/media/working-with-blueprint.jpg": "/static/media/working-with-blueprint.64ee90685d64d5ff885b.jpg",
     "static/media/successful-medical-team.jpg": "/static/media/successful-medical-team.069c2a753e904724a006.jpg",
@@ -62,6 +62,7 @@
     "static/media/cripumps.png": "/static/media/cripumps.269569a1286962c1a446.png",
     "static/media/methodmobile.png": "/static/media/methodmobile.3731d74059a35f1a33f4.png",
     "static/media/feature2.png": "/static/media/feature2.0e446369116e5e8da18a.png",
+    "static/media/cri.png": "/static/media/cri.1f70afadf1709de8a47e.png",
     "static/media/Group 270990189.png": "/static/media/Group 270990189.52f7fce3d87fddc9ffed.png",
     "static/media/Frame 31.png": "/static/media/Frame 31.b6d241816f45a5c71daa.png",
     "static/media/servicesbg.png": "/static/media/servicesbg.63be14eb95552acc9da5.png",
@@ -80,12 +81,12 @@
     "static/media/SAP-SuccessFactors-Logo 1.png": "/static/media/SAP-SuccessFactors-Logo 1.d7417a897149388f26ae.png",
     "static/media/rubyimage.png": "/static/media/rubyimage.c002d02bdb350ef07359.png",
     "index.html": "/index.html",
-    "main.333439bb.css.map": "/static/css/main.333439bb.css.map",
-    "main.a4363fb2.js.map": "/static/js/main.a4363fb2.js.map",
+    "main.6fe03677.css.map": "/static/css/main.6fe03677.css.map",
+    "main.c0cb645e.js.map": "/static/js/main.c0cb645e.js.map",
     "453.ba9a94bd.chunk.js.map": "/static/js/453.ba9a94bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.333439bb.css",
-    "static/js/main.a4363fb2.js"
+    "static/css/main.6fe03677.css",
+    "static/js/main.c0cb645e.js"
   ]
 }

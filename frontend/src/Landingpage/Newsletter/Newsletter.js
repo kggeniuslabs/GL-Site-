@@ -1,7 +1,7 @@
 import React from 'react';
 import user1 from "../Asset/cripumps.png";
-import pumpslogo from "../Asset/pumpslogo.jpg";
-import quotes from "../Asset/quotes.jpg";
+import pumpslogo from "../Asset/cri.png";
+import quotes from "../Asset/quotesbg.png";
 import "./Newsletter.css";
 
 function Newsletter() {

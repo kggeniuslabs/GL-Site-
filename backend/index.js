@@ -19,19 +19,21 @@ app.use(
 app.use("/uploads", express.static("uploads"));
 
 /*                                       DB Conf                                    */
-const db = mysql.createConnection({
+const db = mysql.createPool({
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
   password: process.env.DB_PASS,
   database: process.env.DB_NAME,
+  waitForConnection: true,
 });
 
-db.connect((err) => {
+db.getConnection((err, connection) => {
   if (err) {
     console.log("error", err);
     return;
   } else {
     console.log("db connected");
+    connection.release();
   }
 });
 
